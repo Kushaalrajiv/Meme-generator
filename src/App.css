@@ -37,6 +37,7 @@
 .header{
   display:flex;
   background: linear-gradient(90deg, rgb(203, 136, 10) 1.18%, #d35126 100%);
+  min-width: fit-content;
   color:white;
   padding: 10px;
   align-items: center;
@@ -45,8 +46,39 @@
 .meme-img{
   width: 91.306px;
 height: 86.218px;
-/* padding: 10px; */
+max-width: 100%;
+padding: 10px;
 
+}
+.meme{
+  position: relative;
+}
+.bottom {
+  bottom: 0;
+}
+
+.top {
+  top: 0;
+}
+.meme--text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  color:white;
+  font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
 }
 
 .right-text{
@@ -78,6 +110,9 @@ height: 86.218px;
 .form--image{
   min-width:200%;
   height:450px;
+  width:500px;
+  /* width:;
+  height:350px; */
 }
 .main{
   padding:55px;
@@ -85,6 +120,18 @@ height: 86.218px;
   grid-template: 40px 40px/ 1fr 1fr;
   gap:20px;
 }
+
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
