@@ -160,21 +160,21 @@ padding: 10px;
 @media(min-width:0px) and (max-width:400px){
   
   .header{
-    width:2000px;
+    width:3000px;
     max-width: 100%;
   }
   .form--image{
-    height: 200px ;
+    height: 300px ;
   width: 320px;
   display: block;
   margin:0 auto;
-  padding-top: 20px;
+  padding-top: 30px;
   }
   .meme--text{
     left:10%;
   }
   .main{
-    padding-top:5px;
+    padding-top:25px;
     display: grid;
     grid-template: 40px 40px/ 0.5fr 0.5fr;
     gap:5px;
