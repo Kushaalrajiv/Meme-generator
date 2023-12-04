@@ -40,7 +40,7 @@
   background: linear-gradient(90deg, rgb(203, 136, 10) 1.18%, #d35126 100%);
   min-width: fit-content;
   color:white;
-  padding: 10px;
+  padding: 5px;
   align-items: center;
 }
 
@@ -48,7 +48,7 @@
   width: 91.306px;
 height: 86.218px;
 max-width: 100%;
-padding: 10px;
+padding: 5px;
 
 }
 .meme{
@@ -179,6 +179,7 @@ padding: 10px;
     display: grid;
     grid-template: 40px 40px/ 0.5fr 0.5fr;
     gap:1px;
+    row-gap: 10px;
   }
   
 }
