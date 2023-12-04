@@ -115,12 +115,9 @@ padding: 10px;
 
 @media(min-width:1201px) and (max-width:1600px){
 .form--image{
-  /* min-width:200%; */
   height:430px;
   width:500px;
-  /* width:;
-  height:350px; */
-  /* position: relative; */
+  
 }
   .main{
     padding:35px;
@@ -163,7 +160,7 @@ padding: 10px;
 @media(min-width:0px) and (max-width:400px){
   
   .header{
-    max-width: 100%;
+    min-width: 100%;
   }
   .form--image{
     height: 200px ;
