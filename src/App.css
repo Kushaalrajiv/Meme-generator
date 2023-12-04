@@ -169,10 +169,13 @@ padding: 10px;
   display: block;
   margin:0 auto;
   }
+  .meme--text{
+    left:10%;
+  }
   .main{
     padding:5px;
     display: grid;
-    grid-template: 40px 40px/ 1fr 1fr;
+    grid-template: 40px 40px/ auto auto;
     gap:10px;
   }
 }
