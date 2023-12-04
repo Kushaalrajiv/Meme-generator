@@ -180,6 +180,9 @@ padding: 10px;
     grid-template: 40px 40px/ 0.5fr 0.5fr;
     gap:1px;
   }
+  .form--button{
+    padding-top: 20px;
+  }
 }
   
 
