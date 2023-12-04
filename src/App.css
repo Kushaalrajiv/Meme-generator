@@ -132,7 +132,7 @@ padding: 10px;
 }
 
 
-@media(min-width:401px) and (max-width:1200px){
+@media(min-width:430px) and (max-width:1200px){
   .header{
     max-width: 100%;
   }
@@ -157,7 +157,7 @@ padding: 10px;
   }
 }
 
-@media(min-width:0px) and (max-width:400px){
+@media(min-width:0px) and (max-width:430px){
   
   .header{
     width:1000px;
@@ -178,7 +178,7 @@ padding: 10px;
     margin-right: 10px;
     display: grid;
     grid-template: 40px 40px/ 0.5fr 0.5fr;
-    gap:5px;
+    gap:1px;
   }
 }
   
