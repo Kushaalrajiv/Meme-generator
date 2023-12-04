@@ -115,7 +115,7 @@ padding: 10px;
 @media(min-width:1201px) and (max-width:1600px){
 .form--image{
   /* min-width:200%; */
-  height:450px;
+  height:430px;
   width:500px;
   /* width:;
   height:350px; */
@@ -141,7 +141,7 @@ padding: 10px;
   .form--image{
     /* padding-left: 20px; */
     display: block;
-    height:300px;
+    height:380px;
     width:360px;
     margin:0 auto;
     max-height: 100%;
@@ -152,7 +152,7 @@ padding: 10px;
     left:10%;
   }
   .main{
-    padding:35px;
+    padding:25px;
     display: grid;
     grid-template: 30px 40px/ 0.5fr 0.5fr;
     gap:10px;
@@ -175,7 +175,7 @@ padding: 10px;
   .main{
     padding:5px;
     display: grid;
-    grid-template: 40px 40px/ auto auto;
+    grid-template: 40px 40px/ 0.5fr 0.5fr;
     gap:10px;
   }
 }
