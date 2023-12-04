@@ -52,6 +52,7 @@ padding: 10px;
 }
 .meme{
   position: relative;
+  margin:0 auto;
 }
 .bottom {
   bottom: 0;
@@ -90,7 +91,11 @@ padding: 10px;
 .main-heading{
   font-family: Karla;
 }
-
+.form--image{
+  display:block;
+  margin:0 auto;
+  position: relative;
+}
 
 .form--text{
   border-radius: 5px;
@@ -107,30 +112,62 @@ padding: 10px;
   border-style: hidden;
 }
 
+@media(min-width:1201px) and (max-width:1600px){
 .form--image{
-  min-width:200%;
+  /* min-width:200%; */
   height:450px;
   width:500px;
   /* width:;
   height:350px; */
+  /* position: relative; */
 }
-.main{
-  padding:55px;
-  display: grid;
-  grid-template: 40px 40px/ 1fr 1fr;
-  gap:20px;
+  .main{
+    padding:35px;
+    display: grid;
+    grid-template: 40px 40px/ 1fr 1fr;
+    gap:20px;
+  }
+  .meme--text{
+    left:10%;
+  }
+
 }
 
 
-[class*="col-"] {
-  float: left;
-  padding: 15px;
+@media(min-width:481px) and (max-width:1200px){
+  .header{
+    max-width: 100%;
+  }
+  .form--image{
+    /* padding-left: 20px; */
+    display: block;
+    height:450px;
+    width:560px;
+    margin:0 auto;
+    max-height: 100%;
+    max-width: 200%;
+    position: relative;
+  }
+  .meme--text{
+    left:10%;
+  }
+  .main{
+    padding:35px;
+    display: grid;
+    grid-template: 30px 40px/ 0.5fr 0.5fr;
+    gap:10px;
+  }
 }
 
-/* For mobile phones: */
-[class*="col-"] {
-  width: 100%;
+@media(max-width:481px){
+  .form--image{
+    height: 400px ;
+  width: 520px;
+  display: block;
+  margin:0 auto;
+  }
 }
+  
 
 @keyframes App-logo-spin {
   from {
